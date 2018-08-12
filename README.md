@@ -9,6 +9,10 @@ Serialization is the conversion of an object to a series of bytes, so that the o
 
 ![Alt text](/serialization_deserialization.png?raw=true "Optional Title")
 
-Note : Class has to implement Serializable interface
+**Note**
 
-ObjectInputStream & ObjectOutputStream can be used to read object and write object.
+1) Class has to implement Serializable interface
+
+2) ObjectInputStream & ObjectOutputStream classes can be used.
+
+3) readObject & writeObject methods can be used from ObjectInputStream & ObjectOutputStream classes
